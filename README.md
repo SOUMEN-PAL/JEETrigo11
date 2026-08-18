@@ -15,19 +15,17 @@ Open the URL Vite prints, usually http://localhost:5173/
 
 Use **Print / PDF** in the header for a paper copy.
 
-GitHub Pages is built from `main` by GitHub Actions. If the live URL 404s, open the repo **Settings → Pages** and set **Source** to **GitHub Actions**.
+## GitHub Pages
 
-## Sections
+Actions builds the site and pushes it to the `gh-pages` branch.
 
-```bash
-cd ~/Projects/jee-trigo-cheatsheet
-npm install
-npm run dev
-```
+In **Settings → Pages**:
 
-Open the URL Vite prints, usually http://localhost:5173/
+1. Source: **Deploy from a branch**
+2. Branch: **gh-pages** / **/(root)**
+3. Save
 
-Use **Print / PDF** in the header for a paper copy.
+Do not use the suggested Jekyll or Static HTML workflows.
 
 ## Sections
 
