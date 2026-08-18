@@ -2,7 +2,22 @@
 
 Class 11 / JEE trigonometry cheat sheet: formulae with graphs for amplitude, phase, products, slope, and signed area.
 
+**Live:** https://soumen-pal.github.io/JEETrigo11/
+
 ## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open the URL Vite prints, usually http://localhost:5173/
+
+Use **Print / PDF** in the header for a paper copy.
+
+GitHub Pages is built from `main` by GitHub Actions. If the live URL 404s, open the repo **Settings → Pages** and set **Source** to **GitHub Actions**.
+
+## Sections
 
 ```bash
 cd ~/Projects/jee-trigo-cheatsheet
